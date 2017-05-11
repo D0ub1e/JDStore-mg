@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
     resources :favorites, only: [:create, :destroy]
     namespace :account do
         resources :orders, :favorites, only: [:index]

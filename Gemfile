@@ -79,6 +79,7 @@ gem 'devise-i18n'
 gem 'paperclip'
 gem 'intercom-rails'
 gem 'will_paginate'
+gem 'rails_admin'
 
 # TODO: use Clearance to replace device
 # TODO: use paperclip to replace carrierwave
